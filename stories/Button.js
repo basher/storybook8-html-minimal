@@ -2,7 +2,6 @@ import './button.css';
 
 export const createButton = ({
   primary = false,
-  size = 'medium',
   label,
 }) => {
   const btn = document.createElement('button');
@@ -10,7 +9,7 @@ export const createButton = ({
   btn.innerText = label;
 
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  btn.className = ['storybook-button', `storybook-button--${size}`, mode].join(' ');
+  btn.className = ['storybook-button', mode].join(' ');
 
   return btn;
 };

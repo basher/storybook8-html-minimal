@@ -1,2 +1,2 @@
-# storybook7-html-minimal
-Minimal setup for Storybook/HTML (v7 with Vite)
+# Minimal setup for Storybook/HTML (V7 with Vite)
+To test issues with MDX files not being "connected" to their related stories.

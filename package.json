@@ -1,0 +1,26 @@
+{
+  "name": "storybook7-html-minimal",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basher/storybook7-html-minimal"
+  },
+  "scripts": {
+    "reset": "rm -rf node_modules/ && npm install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.7",
+    "@storybook/addon-links": "^7.0.7",
+    "@storybook/blocks": "^7.0.7",
+    "@storybook/html": "^7.0.7",
+    "@storybook/html-vite": "^7.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.7"
+  }
+}

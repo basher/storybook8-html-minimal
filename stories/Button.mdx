@@ -1,7 +1,13 @@
-import { Meta, Story } from '@storybook/blocks';
+import { Meta, ArgTypes, Controls, Story } from '@storybook/blocks';
 import * as Button from './Button.stories';
 
-{/* <Meta title="Example/Button" of={Button} /> */}
+<Meta of={Button} />
+
+## Story args
+<ArgTypes />
+
+## Story controls
+<Controls />
 
 ## Primary
 - Extra Markdown docs...
@@ -11,4 +17,4 @@ import * as Button from './Button.stories';
 ## Secondary
 - Extra Markdown docs...
 
-<Story of={Button.Primary} />
+<Story of={Button.Secondary} />

@@ -9,10 +9,10 @@ export default {
             options: ['primary', 'secondary'],
         },
     },
-    render: ({ label, ...args }) => {
+    render: ({ ...args }) => {
         return `
 <button class="button button--${args.buttonType}">
-    ${label}
+    ${args.label}
 </button>
         `;
     },

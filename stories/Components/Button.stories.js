@@ -1,4 +1,5 @@
 import './button.css';
+import { Button } from './Button';
 
 export default {
     title: 'Components/Button',
@@ -9,17 +10,11 @@ export default {
             options: ['primary', 'secondary'],
         },
     },
-    render: ({ ...args }) => {
-        return `
-<button class="button button--${args.buttonType}">
-    ${args.label}
-</button>
-        `;
-    },
 };
 
 export const TextButton = {
     args: {
         label: 'Button',
     },
+    render: (args) => Button(args),
 };

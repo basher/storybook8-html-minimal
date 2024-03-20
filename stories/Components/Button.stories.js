@@ -1,5 +1,5 @@
 import './button.css';
-import { Button } from './Button';
+import { ButtonHtml } from './Button';
 
 export default {
     title: 'Components/Button',
@@ -16,5 +16,5 @@ export const TextButton = {
     args: {
         label: 'Button',
     },
-    render: (args) => Button(args),
+    render: (args) => ButtonHtml(args),
 };

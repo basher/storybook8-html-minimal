@@ -1,12 +1,12 @@
 {
-  "name": "storybook7-html-minimal",
+  "name": "storybook8-html-minimal",
   "version": "1.0.0",
   "description": "",
   "author": "",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basher/storybook7-html-minimal"
+    "url": "https://github.com/basher/storybook8-html-minimal"
   },
   "scripts": {
     "reset": "rm -rf node_modules/ && npm install",
